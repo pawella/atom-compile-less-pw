@@ -38,7 +38,7 @@ The comment will compile two files
 
 ---
 Manual Atom config (config.cson) is not required.
-```
+```cson
 "*":
   "atom-compile-less-pw":
     showSuccessMessage: true
