@@ -1,0 +1,29 @@
+{
+  "name": "atom-compile-less-pw",
+  "main": "./lib/atom-compile-less-pw",
+  "version": "0.1.0",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "description": "Just a Atom.io Package for compiling LESS-Files to CSS-Files uing node lessc.",
+  "activationCommands": {
+    "atom-text-editor": [
+      "core:save"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawella/atom-compile-less-pw.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "less": "^1.7.0",
+    "loophole": "^1.0.0"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/pawella/atom-compile-less-pw/issues"
+  },
+  "homepage": "https://github.com/pawella/atom-compile-less-pw"
+}
